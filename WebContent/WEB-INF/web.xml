@@ -1,0 +1,14 @@
+<web-app>
+	<display-name>School Schedule WebAPP</display-name>
+	<welcome-file-list>
+		<welcome-file>schedule.jsp</welcome-file>	
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>ScheduleServlet</servlet-name>	
+		<servlet-class>com.example.schoolschedule.ScheduleServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ScheduleServlet</servlet-name>	
+		<url-pattern>/ScheduleServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
